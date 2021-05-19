@@ -1,0 +1,26 @@
+{
+  "name": "ussf-js-async-checkpoint",
+  "version": "1.0.0",
+  "description": "program to return pokemon type",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musselman22/USSF-js-async-checkpoint.git"
+  },
+  "author": "Jacob Musselman and Bryan Leyva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musselman22/USSF-js-async-checkpoint/issues"
+  },
+  "homepage": "https://github.com/musselman22/USSF-js-async-checkpoint#readme",
+  "bin": {
+    "pokemon": "./pokemon.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
